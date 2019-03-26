@@ -39,6 +39,7 @@ public abstract class AbstractFilePickerFragment<T> extends Fragment
         implements LoaderManager.LoaderCallbacks<SortedList<T>>,
         LogicHandler<T> {
 
+
     protected T mCurrentPath = null;
     protected OnFilePickedListener mListener;
     protected FileItemAdapter<T> mAdapter = null;
